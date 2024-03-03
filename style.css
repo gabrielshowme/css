@@ -1,0 +1,21 @@
+/* Seletor de grupo */
+h1,h2{
+    color: violet;
+}
+/* Seletor de filho */
+.box > p{
+    color: firebrick;
+}
+
+/* Seletor de descendente */
+.box li{
+    color: blue;
+}
+/* Seletor de encadeamento */
+li.done{
+    color: seagreen; 
+}
+/* Combinando combinadores */
+ul p.done{
+    font-size: 0.5rem;
+}
